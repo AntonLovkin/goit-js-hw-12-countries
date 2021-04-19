@@ -1,5 +1,5 @@
 import './styles.css';
-import countryCardTpl from '.././src/country-card.hbs';
+import countryCardTpl from '.././src/country-card.hbs'
 import countryListTpl from '.././src/country-list.hbs';
 import fetchCountries from './api-sevice';
 import getRefs from './get-refs';
