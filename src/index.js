@@ -9,8 +9,10 @@ import makeError from './mareError'
 const refs = getRefs();
 
 refs.searchForm.addEventListener('input', debounce(onSearch, 1500));
+refs.searchForm.addEventListener('submit', (element)=>{element.preventDefault()});
  
 function onSearch(element) {
+    
     const name = element.target.value;
     // console.log(name);
            
